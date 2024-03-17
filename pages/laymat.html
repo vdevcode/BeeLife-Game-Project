@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/custom/font.css" />
+    <link rel="stylesheet" href="../css/responsive/responsive.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Lấy mật</title>
+  </head>
+  <body>
+    <div class="container">
+      <button class="back-btn">Quay lại</button>
+      <div class="bee-diem-tri ">
+        <img src="../assets/triluc/tri.png" alt="">
+        <p>0</p>
+      </div>
+      <div class="bee-diem-luc">
+        <img src="../assets/triluc/luc.png" alt="">
+        <p>0</p>
+      </div>
+
+      <div class="hack-lay-mat" id="hack-button">
+        <button>Xem</button>
+      </div>
+      
+      <div id="laymat">
+        <div id="game">
+          <div class="game-bg">
+            <p>Ảnh minh hoạ</p>
+            <img src="../assets/background/bg2.png" alt="" />
+          </div>
+          <div id="board"></div>
+          <h1>Số lần di chuyển:<span id="turns">0</span></h1>
+          <div id="point">
+            <img src="../assets/points.png" alt="" />
+            <span id="points">0</span>
+          </div>
+          <button id="restart-button" class="style-1" style="margin-bottom: 10px;">Bắt đầu lại</button>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="popup-setting-des-audio">
+      <audio
+        id="myAudio"
+        src="../assets/audio/background/background.mp3"
+      ></audio>
+      <button id="toggleAudio">Nút âm nhạc</button>
+      <input
+        type="range"
+        id="volumeControl"
+        min="0"
+        max="100"
+        value="50"
+        step="1"
+      />
+    </div>
+    <script src="../js/triluc/triluc.js"></script>
+    <script src="../js/laymat.js"></script>
+    <script src="../js/setting/setting.js"></script>
+    <script src="../js/audio/audio.js"></script>
+
+  </body>
+
+
+</html>

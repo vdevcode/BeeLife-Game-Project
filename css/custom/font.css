@@ -1,0 +1,11 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+body{
+    /* font-family: "Odibee Sans", sans-serif !important; */
+    font-family: "Signika Negative", sans-serif;
+    overflow: hidden;
+}
+html{
+    overflow: hidden;
+}

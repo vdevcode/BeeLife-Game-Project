@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/custom/font.css" />
+    <link rel="stylesheet" href="../css/responsive/responsive.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cloud">
+        <div class="cloud-cover">
+          <img
+            src="../assets/cloud/cloud-white/Shape2/cloud_shape2_1.png"
+            alt=""
+          />
+        </div>
+        <div class="cloud-cover">
+          <img
+            src="../assets/cloud/cloud-white/Shape2/cloud_shape2_2.png"
+            alt=""
+          />
+        </div>
+
+        <div class="cloud-cover">
+          <img
+            src="../assets/cloud/cloud-white/Shape2/cloud_shape2_4.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <button class="back-btn">Quay lại</button>
+      <div class="bee-brain">
+        <div class="bee-brain-iq">
+          <img src="../assets/autrung/thong-minh.png" alt="" />
+          <p><span>--</span> điểm tri thức</p>
+        </div>
+      </div>
+      <div class="bee-book">
+        <div class="bee-book-iq">
+          <img src="../assets/autrung/sach.png" alt="" />
+          <p><span>--</span> điểm học tập</p>
+        </div>
+      </div>
+      <div class="message-question-answer">
+        <p>---</p>
+      </div>
+      <div id="point">
+        <img src="../assets/points.png" alt="" />
+        <span id="points">0</span>
+      </div>
+      <div class="bee-diem-tri bee-diem-left">
+        <img src="../assets/triluc/tri.png" alt="" />
+        <p>0</p>
+      </div>
+      <div class="bee-diem-luc bee-diem-left">
+        <img src="../assets/triluc/luc.png" alt="" />
+        <p>0</p>
+      </div>
+      <div id="hoc-ngay">
+        <div class="trac-nghiem">
+          <p class="trac-nghiem-title">Chọn đúng và nhận quà</p>
+          <div id="question1" class="question-container">
+            <h3>Câu hỏi 1: FPT Polytechnic là gì?</h3>
+            <button
+              onclick="showQuestion('Câu hỏi 1', 'a) Là trường Cao đẳng trực thuộc Tổ chức Giáo dục FPT', 'b) Là trường hệ giáo dục đại học thuộc tổ chức nước ngoài', 'c) Là trường hệ giáo dục đào tạo chính quy với phương thức thi đầu vào',  4, 'a')"
+            >
+              Chọn câu hỏi 1
+            </button>
+          </div>
+
+          <div id="question2" class="question-container">
+            <h3>Câu hỏi 2: Trường đào tạo theo phương pháp “project-based-training”, đó là gì vậy?</h3>
+            <button
+              onclick="showQuestion('Câu hỏi 2', 'a) là phương pháp đào tạo tiên tiến dựa trên thực tiễn.', 'b) Là phương pháp học tập thông thường', 'c) Là phương pháp đào tạo tiên tiến với lộ trình học lý thuyết nhiều', 'd) Là phương pháp học tập cơ bản có cơ sở nền tảng vững chắc', 4, 'a')"
+            >
+              Chọn câu hỏi 2
+            </button>
+          </div>
+
+          <div id="question3" class="question-container">
+            <h3>Câu hỏi 3: Để theo học, sinh viên cần có điều kiện cơ bản gì?</h3>
+            <button
+              onclick="showQuestion('Câu hỏi 3', 'a)  Bằng cấp 2', 'b) Bằng tốt nghiệp THPT Quốc Gia', 'c) Bằng đại học', 'd)  Bằng cao đẳng', 4, 'b')"
+            >
+              Chọn câu hỏi 3
+            </button>
+          </div>
+
+          <div id="question4" class="question-container">
+            <h3>Câu hỏi 4: Sinh viên học tập tại  FPT Polytechnic có được hoãn nghĩa vụ quân sự không?</h3>
+            <button
+              onclick="showQuestion('Câu hỏi 4', 'a)  Được', 'b) Không', 2, 'a')"
+            >
+              Chọn câu hỏi 4
+            </button>
+          </div>
+
+          <div id="question5" class="question-container">
+            <h3>Câu hỏi 5: Tại sao nhà trường lại không có nghỉ hè cho sinh viên?</h3>
+            <button
+              onclick="showQuestion('Câu hỏi 4', 'a)  Muốn học sinh được học nhiều hơn', 'b) Muốn học sinh chịu được áp lực tốt khi ra trường', 2, 'b')"
+            >
+              Chọn câu hỏi 5
+            </button>
+          </div>
+
+          <div id="modal" class="modal-bee">
+            <h3 id="modal-title"></h3>
+            <div id="modal-content" class="options"></div>
+            <button onclick="checkAnswer()">Kiểm tra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/triluc/triluc.js"></script>
+    <script src="../js/iqbook/iqbook.js"></script>
+    <script src="../js/hocngay.js"></script>
+    <script src="../js/setting/setting.js"></script>
+    <script src="../js/points/points.js"></script>
+  </body>
+</html>

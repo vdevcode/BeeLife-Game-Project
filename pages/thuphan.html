@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/custom/font.css" />
+    <link rel="stylesheet" href="../css/responsive/responsive.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Thụ phấn</title>
+  </head>
+  <body>
+    <div class="cloud">
+      <div class="cloud-cover">
+        <img
+          src="../assets/cloud/cloud-white/Shape2/cloud_shape2_1.png"
+          alt=""
+        />
+      </div>
+      <div class="cloud-cover">
+        <img
+          src="../assets/cloud/cloud-white/Shape2/cloud_shape2_2.png"
+          alt=""
+        />
+      </div>
+
+      <div class="cloud-cover">
+        <img
+          src="../assets/cloud/cloud-white/Shape2/cloud_shape2_4.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="container">
+      <button class="back-btn">Quay lại</button>
+      <div id="point">
+        <img src="../assets/points.png" alt="" />
+        <span id="points">0</span>
+      </div>
+      <div class="bee-diem-tri bee-diem-left">
+        <img src="../assets/triluc/tri.png" alt="" />
+        <p>---</p>
+      </div>
+      <div class="bee-diem-luc bee-diem-left">
+        <img src="../assets/triluc/luc.png" alt="" />
+        <p>---</p>
+      </div>
+      <div id="thuphan">
+        <div class="thuphan-items">
+          <div class="thuphan-sub-items">
+            <img
+              src="../assets/store/1.gif"
+              data-id="1"
+              alt="Thuốc đỏ"
+              class="bee-dropundefined"
+              data-min-point="5"
+              data-max-point="10"
+            />
+            <img
+              src="../assets/store/2.gif"
+              data-id="2"
+              alt="Thuốc xanh"
+              data-min-point="10"
+              data-max-point="14"
+            />
+            <img
+              src="../assets/store/3.gif"
+              data-id="3"
+              alt="Thuốc tím"
+              data-min-point="14"
+              data-max-point="19"
+            />
+          </div>
+          <div class="popup">
+            <img class="popup-img" src="" alt="" />
+            <span class="close-popup">&times;</span>
+            <p class="popup-content"></p>
+          </div>
+        </div>
+        <div class="count-gieo-phan">
+          Số lần gieo phấn còn lại: <span>0</span>
+        </div>
+        <div id="bag-thu-phan">
+          <img src="../assets/bag/bag.png" alt="" />
+        </div>
+        <div id="popupBag">
+          <p>Hành Trang</p>
+          <ul id="productList1"></ul>
+
+          <button class="close-popup1">X</button>
+        </div>
+        <audio id="sound-bag" src="../assets/bag/bag.mp3" class="sound-danhnhau"></audio>
+
+        <button id="gieo-phan-btn">
+          <img src="../assets/bee/bee1.png" alt="" />
+          <p>Đi gieo phấn</p>
+        </button>
+
+        <div class="show-message-gieo-phan">
+          <p class="show-message-gieo-phan-text">
+            Hôm nay bạn đã hết lượt gieo phấn. Hãy dùng vé để gieo thêm!
+          </p>
+        </div>
+
+        <div class="bee-flower">
+          <img src="../assets/bee/bee.gif" alt="" />
+        </div>
+        <div class="background-flower">
+          <img src="../assets/background/bg3.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/audio/openBag.js"></script>
+    <script src="../js/triluc/triluc.js"></script>
+    <script src="../js/thuphan.js"></script>
+    <script src="../js/points/points.js"></script>
+    <script src="../js/bag/bag.js"></script>
+    <script src="../js/setting/setting.js"></script>
+  </body>
+</html>

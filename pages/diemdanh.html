@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/custom/font.css" />
+    <link rel="stylesheet" href="../css/responsive/responsive.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Điểm danh hàng ngày</title>
+  </head>
+  <body>
+    <div class="container">
+      <button class="back-btn">Quay lại</button>
+      <div id="point">
+        <img src="../assets/points.png" alt="" />
+        <span id="points">0</span>
+      </div>
+      <div class="bee-diem-tri bee-diem-left">
+        <img src="../assets/triluc/tri.png" alt="">
+        <p>0</p>
+      </div>
+      <div class="bee-diem-luc bee-diem-left">
+        <img src="../assets/triluc/luc.png" alt="">
+        <p>0</p>
+      </div>
+      <div id="diemdanh">
+        <div class="form-diemdanh">
+          <div class="form-diemdanh-image">
+            <img src="../assets/logindaily/daily2.png" alt="" />
+            <!-- 1 -->
+            <div class="form-diemdanh-sub">
+              <div id="form-diemdanh-sub-daily1">
+                <img src="../assets/logindaily/daily1.png" alt="" />
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="form-diemdanh-sub2">
+              <div id="form-diemdanh-sub-daily1">
+                <img src="../assets/logindaily/daily1.png" alt="" />
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="form-diemdanh-sub3">
+              <div id="form-diemdanh-sub-daily1">
+                <img src="../assets/logindaily/daily1.png" alt="" />
+              </div>
+            </div>
+              <!-- 4 -->
+              <div class="form-diemdanh-sub4">
+                <div id="form-diemdanh-sub-daily1">
+                  <img src="../assets/logindaily/daily1.png" alt="" />
+                </div>
+              </div>
+                   <!-- 5 -->
+                   <div class="form-diemdanh-sub5">
+                    <div id="form-diemdanh-sub-daily1">
+                      <img src="../assets/logindaily/daily1.png" alt="" />
+                    </div>
+                  </div>
+            <div class="popup" id="diemdanh-popup">
+              <button onclick="closePopup()" class="close-popup">X</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="popup-setting-des-audio">
+      <audio
+        id="myAudio"
+        src="../assets/audio/background/background.mp3"
+      ></audio>
+      <button id="toggleAudio">Nút âm nhạc</button>
+      <input
+        type="range"
+        id="volumeControl"
+        min="0"
+        max="100"
+        value="50"
+        step="1"
+      />
+    </div>
+    <script src="../js/triluc/triluc.js"></script>
+    <script src="../js/diemdanh.js"></script>
+    <script src="../js/points/points.js"></script>
+    <script src="../js/setting/setting.js"></script>
+    <script src="../js/audio/audio.js"></script>
+
+  </body>
+</html>

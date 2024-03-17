@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/custom/font.css" />
+    <link rel="stylesheet" href="../css/responsive/responsive.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Đánh nhau</title>
+  </head>
+  <body>
+    <div class="cloud">
+      <div class="cloud-cover">
+        <img
+          src="../assets/cloud/cloud-white/Shape2/cloud_shape2_1.png"
+          alt=""
+        />
+      </div>
+      <div class="cloud-cover">
+        <img
+          src="../assets/cloud/cloud-white/Shape2/cloud_shape2_2.png"
+          alt=""
+        />
+      </div>
+
+      <div class="cloud-cover">
+        <img
+          src="../assets/cloud/cloud-white/Shape2/cloud_shape2_4.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="container">
+      <button class="back-btn">Quay lại</button>
+      <div id="point">
+        <img src="../assets/points.png" alt="" />
+        <span id="points">0</span>
+      </div>
+
+      <div class="hieu-ung-lua">
+        <img src="../assets/hieuung/dam-lua.gif" alt="">
+      </div>
+      <div class="hieu-ung-lua1">
+        <img src="../assets/hieuung/dam-lua.gif" alt="">
+      </div>
+
+
+      <div class="hp-to-ong">
+        <img src="../assets/menu/to-ong.png" alt="" />
+        <p>Hp của tổ ong: <span>---</span></p>
+      </div>
+      <div class="bee-diem-tri bee-diem-left">
+        <img src="../assets/triluc/tri.png" alt="" />
+        <p>0</p>
+      </div>
+      <div class="bee-diem-luc bee-diem-left">
+        <img src="../assets/triluc/luc.png" alt="" />
+        <p>0</p>
+      </div>
+      <div class="message-point-tri-luc">
+        <p>---</p>
+      </div>
+      <div id="itemChiMangBtn">
+        <img
+          id="itemChiMangIconBtn"
+          src="../assets/attack/chi-mang.png"
+          alt=""
+        />
+        <img src="../assets/attack/bao-ve.png" alt="" />
+      </div>
+      <audio
+        id="sound1"
+        src="../assets/audio/danhnhau/danh-nhau.mp3"
+        class="sound-danhnhau"
+      ></audio>
+      <audio
+        id="sound2"
+        src="../assets/audio/danhnhau/danh-nhau.mp3"
+        class="sound-danhnhau"
+      ></audio>
+
+      <div class="thong-bao-items">
+        <p>---p></p>
+      </div>
+
+      <div id="tancong">
+        <div class="tan-cong-btn">
+          <button id="batdauBtn">
+            <img src="../assets/attack/attack.png" alt="" />
+            <p>Bắt đầu</p>
+          </button>
+          <div class="actions">
+            <button id="tancongBtn">Tấn công</button>
+            <button id="dauhangBtn">Đầu hàng</button>
+          </div>
+        </div>
+
+        <div id="heroContainer">
+          <div id="anh-hung">
+            <img class="img-anh-hung" src="../assets/avatar/bee.png" alt="" />
+            <p>---</p>
+            <div id="hp-anh-hung" class="hp-hero">
+              <div class="hp-hero-inner">---</div>
+            </div>
+            <img src="../assets/bee/bee-attack.gif" class="anh-hung" />
+          </div>
+
+          <div id="ke-thu">
+            <img class="img-ke-thu" src="../assets/avatar/goku.gif" alt="" />
+            <p>Kẻ phá tổ ong</p>
+            <div id="hp-ke-thu" class="hp-hero">
+              <div class="hp-hero-inner">---</div>
+            </div>
+            <img  src="../assets/bee/goku1.gif" class="ke-thu" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/triluc/triluc.js"></script>
+    <script src="../js/chiendau.js"></script>
+    <script src="../js/points/points.js"></script>
+    <script src="../js/setting/setting.js"></script>
+  </body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive/responsive.css" />
+    <link rel="stylesheet" href="./css/custom/font.css" />
+    <title>Bee Life</title>
+  </head>
+  <body>
+    <div class="cloud">
+      <div class="cloud-cover">
+        <img
+          src="./assets/cloud/cloud-white/Shape3/cloud_shape3_1.png"
+          alt=""
+        />
+      </div>
+      <div class="cloud-cover">
+        <img
+          src="./assets/cloud/cloud-white/Shape3/cloud_shape3_2.png"
+          alt=""
+        />
+      </div>
+
+      <div class="cloud-cover">
+        <img
+          src="./assets/cloud/cloud-white/Shape3/cloud_shape3_4.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="container">
+      <div class="logo">
+        <img src="./assets/logo/logoFPT.png" alt="" />
+      </div>
+      <div class="bee-thanh-tich">
+        <img src="./assets/thanhtich/thanh-tich.png" alt="" />
+      </div>
+      <div id="popup-thanhtich">
+        <div class="popup-thanhtich-giay-khen">
+          <img src="../assets/thanhtich/giay-khen.png" alt="">
+          <p>---</p>
+        </div>
+        <button class="close-popup-thanh-tich">X</button>
+      </div>
+      <div class="khen-thuong">
+        <img src="./assets/thanhtich/khen.gif" alt="">
+      </div>
+      <div id="game">
+        <div class="game-logo">
+          <img src="./assets/logo/logo-bee.png" alt="" />
+        </div>
+        <button id="btn-play" class="style-1">
+          <!-- <img src="./assets/button/play.png" alt=""> -->
+          <p>Chơi ngay</p>
+        </button>
+        <button id="btn-rankings" class="style-1">
+          <!-- <img src="./assets/button/huong-dan.png" alt=""> -->
+          <p>Hướng dẫn</p>
+        </button>
+        <div id="popup">
+          <button class="close-popup">X</button>
+        </div>
+        <button id="btn-settings" class="style-1">
+          <p>Cài đặt game</p>
+        </button>
+        <div id="popup-setting">
+          <div class="popup-setting-details">
+            <h1>Cài đặt game</h1>
+            <div class="popup-setting-des">
+              <div class="popup-setting-des-cover">
+                <p>Đổi giao diện background</p>
+                <div class="popup-setting-des-img">
+                  <div class="popup-setting-des-sub-img">
+                    <img src="./assets/background/bg.jpg" alt="" />
+                  </div>
+                  <div class="popup-setting-des-sub-img">
+                    <img src="./assets/background/bg4.jpg" alt="" />
+                  </div>
+          
+                  <div class="popup-setting-des-sub-img">
+                    <img src="./assets/background/bg6.jpg" alt="" />
+                  </div>
+                  <div class="popup-setting-des-sub-img">
+                    <img src="./assets/background/bg5.jpg" alt="" />
+                  </div>
+                </div>
+
+                <p>Đổi màu nút</p>
+                <div class="popup-setting-des-button">
+                  <div
+                    class="popup-setting-des-sub-button"
+                    style="background: #fbcb1c"
+                  ></div>
+                  <div
+                    class="popup-setting-des-sub-button"
+                    style="background: rgb(236, 170, 71)"
+                  ></div>
+                  <div
+                    class="popup-setting-des-sub-button"
+                    style="background: rgb(245, 103, 103)"
+                  ></div>
+                </div>
+
+                <p>Đổi màu chữ</p>
+                <div class="popup-setting-des-text">
+                  <div class="popup-setting-des-sub-text" style="color: white">
+                    vdevcode
+                  </div>
+                  <div class="popup-setting-des-sub-text" style="color: black">
+                    vdevcode
+                  </div>
+                  <div
+                    class="popup-setting-des-sub-text"
+                    style="color: rgb(144, 235, 245)"
+                  >
+                    vdevcode
+                  </div>
+                  <div
+                    class="popup-setting-des-sub-text"
+                    style="color: rgb(241, 236, 124)"
+                  >
+                    vdevcode
+                  </div>
+                  <div
+                    class="popup-setting-des-sub-text"
+                    style="color: rgb(244, 115, 143)"
+                  >
+                    vdevcode
+                  </div>
+                  <div
+                    class="popup-setting-des-sub-text"
+                    style="color: rgb(91, 99, 248)"
+                  >
+                    vdevcode
+                  </div>
+                  <div
+                    class="popup-setting-des-sub-text"
+                    style="color: rgb(20, 201, 26)"
+                  >
+                    vdevcode
+                  </div>
+                  <div
+                    class="popup-setting-des-sub-text"
+                    style="color: rgb(236, 139, 42)"
+                  >
+                    vdevcode
+                  </div>
+                </div>
+
+                <p>Âm thanh game</p>
+                <div class="popup-setting-des-audio">
+                  <audio
+                    id="myAudio"
+                    src="./assets/audio/background/background.mp3"
+                  ></audio>
+                  <button id="toggleAudio">Nút âm nhạc</button>
+                  <input
+                    type="range"
+                    id="volumeControl"
+                    min="0"
+                    max="100"
+                    value="50"
+                    step="1"
+                  />
+                  <p class="volumeControlNumber">Âm lượng: 50</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="close-popup-setting">X</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="./js/setting/setting.js"></script>
+    <script src="./js/audio/audio.js"></script>
+    <script src="./js/manhinh.js"></script>
+    <script src="./js/thanhtich/thanhtich.js"></script>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/custom/font.css" />
+    <link rel="stylesheet" href="../css/responsive/responsive.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Ấu trùng</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cloud">
+        <div class="cloud-cover">
+          <img
+            src="../assets/cloud/cloud-white/Shape2/cloud_shape2_1.png"
+            alt=""
+          />
+        </div>
+        <div class="cloud-cover">
+          <img
+            src="../assets/cloud/cloud-white/Shape2/cloud_shape2_2.png"
+            alt=""
+          />
+        </div>
+  
+        <div class="cloud-cover">
+          <img
+            src="../assets/cloud/cloud-white/Shape2/cloud_shape2_4.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <button class="back-btn">Quay lại</button>
+      <div id="point">
+        <img src="../assets/points.png" alt="" />
+        <span id="points">0</span>
+      </div>
+      <div id="autrung-bee">
+        <div class="bee-brain">
+          <div class="bee-brain-iq">
+            <img src="../assets/autrung/thong-minh.png" alt="" />
+            <p><span>--</span> điểm tri thức</p>
+          </div>
+        </div>
+        <div class="bee-book">
+          <div class="bee-book-iq">
+            <img src="../assets/autrung/sach.png" alt="" />
+            <p><span>--</span> điểm học tập</p>
+          </div>
+        </div>
+
+        <div class="bee-diem-tri bee-diem-left">
+          <img src="../assets/triluc/tri.png" alt="">
+          <p>0</p>
+        </div>
+        <div class="bee-diem-luc bee-diem-left">
+          <img src="../assets/triluc/luc.png" alt="">
+          <p>0</p>
+        </div>
+        <div class="bee-huong-dan" id="bee-huong-dan">
+          <img src="../assets/huongdan/huong-dan.png" alt="">
+        </div>
+
+        <div id="popup-huongdan">
+          <img src="../assets/huongdan/thong-tin.png" alt="">
+          <button class="close-popup" id="close-popup-huong-dan">X</button>
+        </div>
+
+        <div class="larval-level">
+          <p>Cấp ấu trùng: <span> ---</span></p>
+        </div>
+
+        <div class="message-box-larval">
+          <p>---</p>
+        </div>
+
+        <div class="popup-larval">
+          <div class="popup-larval-box">
+            <button class="btn-popup-larval-accept">Đồng ý</button>
+            <button class="btn-popup-larval-cancel">Hủy</button>
+          </div>
+          <button class="close-popup">X</button>
+        </div>
+
+        <div class="bee-play-game">
+          <img src="../assets/bee/bee.gif" alt="" />
+          <p>Học ngay</p>
+        </div>
+        <div class="autrung-bee-bar">
+          <p>Thanh đo tiến độ: <span>0/100</span></p>
+          <div class="autrung-bee-bar-container">
+            <div class=""></div>
+          </div>
+        </div>
+        <div class="autrung-bee-img">
+          <img src="../assets/autrung/autrung.png" alt="" />
+          <button id="updateLarval">Load...</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup-setting-des-audio">
+      <audio
+        id="myAudio"
+        src="../assets/audio/background/background.mp3"
+      ></audio>
+      <button id="toggleAudio">Nút âm nhạc</button>
+      <input
+        type="range"
+        id="volumeControl"
+        min="0"
+        max="100"
+        value="50"
+        step="1"
+      />
+    </div>
+
+    <script src="../js/triluc/triluc.js"></script>
+    <script src="../js/iqbook/iqbook.js"></script>
+    <script src="../js/autrung.js"></script>
+    <script src="../js/points/points.js"></script>
+    <script src="../js/setting/setting.js"></script>
+    <script src="../js/audio/audio.js"></script>
+  </body>
+</html>
