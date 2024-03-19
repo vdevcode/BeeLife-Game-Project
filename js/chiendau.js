@@ -196,5 +196,5 @@ document
 const nameChienDau = document.querySelector("#anh-hung p");
 nameChienDau.innerHTML = localStorage.getItem("playerName");
 
-localStorage.setItem("hp-anh-hung", 10);
-localStorage.setItem("hp-ke-thu", 10);
+// localStorage.setItem("hp-anh-hung", 10);
+// localStorage.setItem("hp-ke-thu", 10);

@@ -58,16 +58,16 @@ btnSpin.addEventListener("click", () => {
       prizeText = "Cái nịt";
     } else if (stoperPosition === 6) {
       prizeText = "3 'Trí' và 2 'Lực";
-      let diemTri = JSON.parse(localStorage.getItem("diem-tri") || 0)
-      diemTri += 3
-      console.log(diemTri);
+      let diemTri = JSON.parse(localStorage.getItem("diem-tri") || 0);
+      diemTri += 3;
+      increaseDiemTri.innerHTML = diemTri;
 
-      let diemLuc = JSON.parse(localStorage.getItem("diem-luc") || 0)
-      diemLuc += 2
-      console.log(diemLuc);
+      let diemLuc = JSON.parse(localStorage.getItem("diem-luc") || 0);
+      diemLuc += 2;
+      increaseDiemLuc.innerHTML = diemLuc;
 
-      localStorage.setItem("diem-tri", diemTri)
-      localStorage.setItem("diem-luc", diemLuc)
+      localStorage.setItem("diem-tri", diemTri);
+      localStorage.setItem("diem-luc", diemLuc);
     } else {
       prizeText = prize.innerText;
     }
