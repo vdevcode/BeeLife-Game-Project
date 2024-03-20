@@ -9,3 +9,4 @@ window.onload = function() {
         gameContainer.style.display = "block";
     }
 };
+
