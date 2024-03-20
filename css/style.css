@@ -160,7 +160,6 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   background: url("../assets/popup/popup.png");
   overflow: scroll;
   background-size: cover;
