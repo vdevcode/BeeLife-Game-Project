@@ -9,10 +9,13 @@
 }
 
 body {
-  background: url("https://img.freepik.com/free-vector/gradient-rural-landscape-background_52683-126758.jpg?w=2000&t=st=1710921540~exp=1710922140~hmac=ee37acaf95a6a9e52d03c5144e393ff5e2f3cc098106cd06b6a36950e0f4d7fc");
+  background: url("https://i.ibb.co/bJL9cts/bg4.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
 :root {
