@@ -83,3 +83,5 @@ document.addEventListener("DOMContentLoaded", function () {
 function applyTextColor(color) {
   document.documentElement.style.setProperty("--main-text-color", color);
 }
+
+
