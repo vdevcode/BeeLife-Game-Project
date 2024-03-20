@@ -18,9 +18,14 @@ let imgOrder = [
   "/imageonline/3",
 ];
 
-let originalOrder = [...imgOrder];
+let originalOrder;
 
-imgOrder.sort(() => Math.random() - 0.5);
+function shuffleAndSaveOriginalOrder() {
+  originalOrder = [...imgOrder]; 
+  imgOrder.sort(() => Math.random() - 0.5);
+}
+
+shuffleAndSaveOriginalOrder();
 
 window.onload = function () {
   for (let r = 0; r < rows; r++) {
@@ -100,8 +105,10 @@ function touchEnd() {
     if (isGameCompleted()) {
       alert("Bạn đã hoàn thành game!!!");
       points += 50;
+      diemTri += 10;
       document.getElementById("points").innerText = points;
       savePoints();
+      increaseDiemTri.innerHTML = diemTri; 
     }
   }
 }
@@ -184,14 +191,17 @@ function dragEnd() {
 
     if (isGameCompleted()) {
       alert("Bạn đã hoàn thành game!!!");
+      const diemTri = JSON.parse(localStorage.getItem("diem-tri")) || 0
       points += 50;
       diemTri += 10;
       document.getElementById("points").innerText = points;
+      localStorage.setItem("diem-tri", diemTri)
       savePoints();
-      increaseDiemTri.innerHTML = diemTri;
+      increaseDiemTri.innerHTML = diemTri; 
     }
   }
 }
+
 document.getElementById("hack-button").addEventListener("click", hackPuzzle);
 
 function hackPuzzle() {
