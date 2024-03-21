@@ -251,7 +251,7 @@ popup4.addEventListener("click", function () {
   showPopup4.style.display = "block";
   var buyedItems = localStorage.getItem("required-items-level-" + 0);
   if (buyedItems) {
-    var items = JSON.parse(buyedItems);
+    var items = JSON.parse(buyedItems) ;
     var itemListDiv = document.getElementById("item-list");
     itemListDiv.innerHTML = "<ul>";
     items.forEach(function (item) {
