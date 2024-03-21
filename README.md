@@ -32,9 +32,28 @@
 - Chiến đấu:
 
   - để chấm dứt việc bị phá tổ ong, bạn phải đi chiến đấu với con người, nếu giành chiến thắng thì cả ngày hôm đó, tổ ong của bạn sẽ không bị phá, qua ngày mới thì con người mới xuất hiện lại và tấn công như trước
+  - Khi chiến đấu, bạn có thể dùng thêm chí mạng x2, mỗi ngày bạn có 2 lượt dùng nhé, hãy biết tận dụng để giành thắng lợi
 
 - Bảo vệ:
 
   - Khi bật khiên bảo vệ, tổ ong sẽ được tránh những đòn tấn công từ con người, nhưng mỗi 10s bạn sẽ bị mất 1 bee
+
+- Ấu trùng:
+
+  - Để tăng số lượt thụ phấn lên 1, mỗi khi bạn nâng level ấu trùng lên 1 cấp thì lượt thụ phấn +1
+  - Học tập trả lời câu hỏi đúng để nhận được điểm tri thức + điểm học tập, dùng 2 loại này để nâng cấp ấu trùng nhé
+  - Khi tiến hoá lên lv5, ấu trùng sẽ biến thành nhộng
+  - Khi tiến hoá lên lv10, ấu trùng sẽ biến thành ong trưởng thành
+
+- Vòng quay:
+
+  - Tại cửa hàng, khi đủ 20 điểm Bee, bạn có thể tham gia quay số với những món quà được ghi là "bí mật", hứa hẹn sự giàu có như thầy Huấn từng nói bạn nhé
+
+- Cài đặt game: 
+
+  - Tại đây, bạn có thể bật, tắt nhạc
+  - Đổi background sáng - tối
+  - Đổi màu nút
+  - Đổi màu chữ
   
 
