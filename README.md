@@ -3,6 +3,19 @@
 <img src="https://i.ibb.co/WGf1pjw/Screen-Shot-2024-03-21-at-07-45-17.png">
 **Tham gia trò chơi, người chơi sẽ được trải nghiệm với những thử thách vui nhộn như sau:**
 
+- Lấy mật
+  
+  - thông qua trò chơi xếp hình khung cảnh tổ ong hoàn chỉnh để giành chiến thắng
+  
+  - Thụt với đầu dòng 1
+ 
+- Gạch đầu dòng thứ hai
+  
+  - Thụt với đầu dòng 2
+  
+  - Thụt với đầu dòng 2
+  
+
 ```sh
 Lấy mật: thông qua trò chơi xếp hình khung cảnh tổ ong hoàn chỉnh để giành chiến thắng
 Điểm danh: Mỗi ngày điểm danh, người chơi đều sẽ nhận được điểm Bee, điểm Trí, Lực, và các loại thuốc sức mạnh
