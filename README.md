@@ -1,5 +1,5 @@
 ## Bee Life
-**Cuộc sống của bee**
+### Cuộc sống của bee
 **Tham gia trò chơi, người chơi sẽ được trải nghiệm với những thử thách vui nhộn như sau:**
 
 ```sh
