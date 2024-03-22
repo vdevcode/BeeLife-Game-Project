@@ -1,6 +1,9 @@
 ## Bee Life
 ### Cuộc sống của bee
 <img src="https://i.ibb.co/WGf1pjw/Screen-Shot-2024-03-21-at-07-45-17.png">
+
+Tài liệu docs: https://docs.google.com/document/d/1f4AgF7gBTxpLI2gqEQYyiAygUv8x8VCV3g8xUvrDDWY/edit
+
 **Tham gia trò chơi, người chơi sẽ được trải nghiệm với những thử thách vui nhộn như sau:**
 
 - Lấy mật
